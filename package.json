@@ -1,0 +1,33 @@
+{
+  "name": "hello-gatsby-mdx",
+  "private": true,
+  "description": "A bare-bones MDX starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "1.5.7",
+    "@mdx-js/react": "1.5.7",
+    "gatsby": "^2.19.7",
+    "gatsby-plugin-mdx": "1.0.75",
+    "gatsby-source-filesystem": "2.1.48",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "react",
+    "mdx",
+    "gatsby"
+  ]
+}
