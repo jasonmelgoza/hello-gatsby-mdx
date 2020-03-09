@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
-import Message from "./message"
+import NewComponent from "./NewComponent"
 
-const shortcodes = { Message }
+const shortcodes = { NewComponent }
 
 export default ({ children }) => (
   <MDXProvider components={shortcodes}>
