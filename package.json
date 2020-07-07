@@ -14,16 +14,16 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@mdx-js/mdx": "1.5.7",
-    "@mdx-js/react": "1.5.7",
-    "gatsby": "2.19.43",
-    "gatsby-plugin-mdx": "1.0.82",
-    "gatsby-source-filesystem": "2.1.55",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "@mdx-js/mdx": "1.6.6",
+    "@mdx-js/react": "1.6.6",
+    "gatsby": "2.23.22",
+    "gatsby-plugin-mdx": "1.2.22",
+    "gatsby-source-filesystem": "2.3.18",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.5"
   },
   "keywords": [
     "react",
