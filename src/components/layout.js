@@ -1,15 +1,31 @@
 import React from "react"
-import { Link } from "gatsby"
+import { graphql, Link, useStaticQuery } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
 import NewComponent from "./NewComponent"
 
 const shortcodes = { NewComponent }
 
-export default ({ children }) => (
-  <MDXProvider components={shortcodes}>
-    <h1>
-      <Link to="/">Hello Gatsby MDX</Link>
-    </h1>
-    {children}
-  </MDXProvider>
-)
+const Layout = ({ children }) => {
+  const data = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
+  return (
+    <>
+      <MDXProvider components={shortcodes}>
+        <h1>
+          <Link to="/">{data.site.siteMetadata.title}</Link>
+        </h1>
+        {children}
+      </MDXProvider>
+    </>
+  )
+}
+
+export default Layout
