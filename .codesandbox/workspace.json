@@ -8,8 +8,8 @@
         {
           "id": "codesandbox.browser",
           "options": {
-            "port": 39559,
-            "url": "https://v6k5q-39559.sse.codesandbox.io"
+            "url": "/___graphql",
+            "title": "GraphiQL"
           },
           "closeable": true
         }

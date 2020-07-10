@@ -1,4 +1,9 @@
 module.exports = {
+  siteMetadata: {
+    title: `Using MDX example`,
+    description: `Kick off your next, great Gatsby project with MDX.`,
+    author: `@jasonmelgoza`,
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
