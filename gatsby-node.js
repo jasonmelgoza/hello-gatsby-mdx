@@ -4,7 +4,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
-  const pageTemplate = path.resolve(`./src/templates/page-template.js`)
+  const pageTemplate = path.resolve(`./src/templates/PageTemplate.js`)
   return graphql(
     `
       {
