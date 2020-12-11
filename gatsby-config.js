@@ -1,4 +1,5 @@
 module.exports = {
+  flags : { DEV_SSR: true },
   siteMetadata: {
     title: `Using MDX example`,
     description: `Kick off your next, great Gatsby project with MDX.`,
