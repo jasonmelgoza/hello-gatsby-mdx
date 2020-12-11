@@ -1,6 +1,5 @@
 {
   "name": "hello-gatsby-mdx",
-  "private": true,
   "description": "A bare-bones MDX starter for Gatsby",
   "version": "0.1.1",
   "license": "0BSD",
