@@ -1,0 +1,6 @@
+:local(.root) {
+  color: green;
+  :global &.ui {
+    color: red;
+  }
+}
