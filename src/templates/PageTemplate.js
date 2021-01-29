@@ -4,7 +4,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Layout from "../components/Layout"
 
-export default ({ data }) => {
+export default function PageTemplate({ data }) {
   const { frontmatter, body } = data.mdx
   return (
     <Layout>

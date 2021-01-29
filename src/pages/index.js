@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/Layout"
 
-export default ({ data }) => {
+export default function Main({ data }) {
   return (
     <Layout>
       <ul>
@@ -20,6 +20,7 @@ export default ({ data }) => {
     </Layout>
   )
 }
+
 export const query = graphql`
   query {
     allMdx {

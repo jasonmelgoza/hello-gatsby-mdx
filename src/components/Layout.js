@@ -5,7 +5,7 @@ import NewComponent from "./NewComponent"
 
 const shortcodes = { NewComponent }
 
-const Layout = ({ children }) => {
+export default function Layout({ children }) {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -27,5 +27,3 @@ const Layout = ({ children }) => {
     </>
   )
 }
-
-export default Layout
