@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 
-function Custom404() {
+export default function NotFound() {
   return (
     <Layout>
       <h2>404 - Page Not Found</h2>
@@ -9,5 +9,3 @@ function Custom404() {
     </Layout>
   )
 }
-
-export default Custom404
