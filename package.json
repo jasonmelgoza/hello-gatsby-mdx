@@ -15,11 +15,11 @@
   "dependencies": {
     "@mdx-js/mdx": "2.0.0-next.8",
     "@mdx-js/react": "2.0.0-next.8",
-    "gatsby": "2.31.1",
-    "gatsby-plugin-mdx": "1.9.0",
-    "gatsby-source-filesystem": "2.10.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "gatsby": "3.2.1",
+    "gatsby-plugin-mdx": "2.2.0",
+    "gatsby-source-filesystem": "3.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
     "prettier": "2.2.1"

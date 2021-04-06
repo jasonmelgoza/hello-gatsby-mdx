@@ -1,4 +1,7 @@
 module.exports = {
+  flags: {
+    DEV_SSR: false
+  },
   siteMetadata: {
     title: `MDX 🙌`,
     description: `Kick off your next, great Gatsby project with MDX.`,
