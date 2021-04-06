@@ -1,3 +1,10 @@
 {
-  "node": 14
+  "infiniteLoopProtection": true,
+  "hardReloadOnChange": false,
+  "template": "gatsby",
+  "view": "browser",
+  "container": {
+    "node": "14"
+  },
+  "node": "14"
 }
